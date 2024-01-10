@@ -1,3 +1,5 @@
+// Day 2: Operators
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -7,7 +9,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 class Result {
-
     /*
      * Complete the 'solve' function below.
      *
@@ -24,16 +25,15 @@ class Result {
         tip = meal_cost * tip_percent / 100;
         tax = tip * tax_percent / 100;
 
-
         total_cost = meal_cost + tip + tax;
-        System.out.println((int)Math.ceil(total_cost));
+        System.out.println((int) Math.ceil(total_cost));
     }
 
 }
 
 public class Day2 {
     public static void main(String[] args) throws IOException {
-        reader reader = new reader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         double meal_cost = Double.parseDouble(reader.readLine().trim());
 
