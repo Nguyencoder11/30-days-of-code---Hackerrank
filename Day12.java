@@ -1,3 +1,5 @@
+// Day 12: Inheritance
+
 import java.util.*;
 
 // Declare a class named Person
