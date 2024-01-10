@@ -1,3 +1,5 @@
+// Day 1: Data Types
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -14,19 +16,14 @@ public class Day1 {
         Scanner scan = new Scanner(System.in);
 
         /* Declare second integer, double, and String variables. */
-        System.out.println("So nguyen: ");
         int number1 = scan.nextInt();
-        System.out.println("So thuc: ");
         double number2 = scan.nextDouble();
         scan.nextLine();
         String str;
-        System.out.println("Chuoi: ");
         str = scan.nextLine();
         /* Read and save an integer, double, and String to your variables. */
         number1 += i;
         number2 += d;
-        // Note: If you have trouble reading the entire String, please go back and
-        // review the Tutorial closely.
 
         /* Print the sum of both integer variables on a new line. */
         System.out.println(number1);
