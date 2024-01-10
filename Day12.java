@@ -21,6 +21,7 @@ class Person {
     }
 }
 
+// Declare a class Student extends class Person
 class Student extends Person {
     private int[] testScores;
 
