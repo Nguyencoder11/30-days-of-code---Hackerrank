@@ -1,3 +1,5 @@
+// Day 3: Intro to Conditional Statements
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -8,7 +10,7 @@ import java.util.regex.*;
 
 public class Day3 {
     public static void main(String[] args) throws IOException {
-        reader reader = new reader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(reader.readLine().trim());
 
