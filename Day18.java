@@ -38,8 +38,8 @@ public class Day18 {
                 + ((!isPalindrome) ? "not a palindrome." : "a palindrome."));
     }
 
-    private Object dequeueCharacter() {
-        return queueList.remove();
+    private void pushCharacter(char c) {
+        stackList.push(c);
     }
 
     private Object popCharacter() {
@@ -47,10 +47,10 @@ public class Day18 {
     }
 
     private void enqueueCharacter(char c) {
-        queueList.add(c);
+        queueList.offer(c);
     }
 
-    private void pushCharacter(char c) {
-        stackList.push(c);
+    private Object dequeueCharacter() {
+        return queueList.poll();
     }
 }
