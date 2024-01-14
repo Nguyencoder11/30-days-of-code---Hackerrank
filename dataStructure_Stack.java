@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class dataStructure_Stack {
-    private static Stack<Integer> stack = new Stack<>();
+    static Stack<Integer> stack = new Stack<>();
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -41,7 +41,7 @@ public class dataStructure_Stack {
         sc.close();
     }
 
-    private static void show() {
+    static void show() {
         for (int num : stack) {
             System.out.print(num + " ");
         }
