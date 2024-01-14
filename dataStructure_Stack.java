@@ -14,7 +14,7 @@ public class dataStructure_Stack {
         System.out.println("Elements in first stack:");
         show();
 
-        // Push a new element in stack
+        // Push a new element in the top of stack
         System.out.print("\nEnter a number N: ");
         int N = sc.nextInt();
         stack.push(N);
