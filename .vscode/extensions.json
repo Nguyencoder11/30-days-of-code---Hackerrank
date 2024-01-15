@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-spring-boot-dashboard",
+        "vscjava.vscode-spring-initializr",
+        "redhat.vscode-community-server-connector",
+        "redhat.vscode-server-connector",
+        "sonarsource.sonarlint-vscode",
+        "shengchen.vscode-checkstyle",
+        "visualstudioexptteam.vscodeintellicode",
+        "loiane.java-spring-extension-pack"
+    ]
+}
