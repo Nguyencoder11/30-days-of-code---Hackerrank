@@ -8,6 +8,8 @@
         "sonarsource.sonarlint-vscode",
         "shengchen.vscode-checkstyle",
         "visualstudioexptteam.vscodeintellicode",
-        "loiane.java-spring-extension-pack"
+        "loiane.java-spring-extension-pack",
+        "pkief.material-icon-theme",
+        "vscode-icons-team.vscode-icons"
     ]
 }
