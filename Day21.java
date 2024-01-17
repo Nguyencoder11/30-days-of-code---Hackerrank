@@ -12,8 +12,7 @@ class Printer<T> {
      * @param A generic array
      **/
 
-    // Write your code here
-
+    // Phuong thuc printArray in ra cac phan tu cua mang co kieu du lieu T bat ky
     public void printArray(T[] myArray) {
         for (T element : myArray) {
             System.out.println(element);
