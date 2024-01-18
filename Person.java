@@ -1,6 +1,5 @@
 // Day 4: Class vs. Instance
 
-import java.io.*;
 import java.util.*;
 
 public class Person {
