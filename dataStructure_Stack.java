@@ -1,6 +1,5 @@
 // Learn about data structure - Stack
 
-import java.io.*;
 import java.util.*;
 
 public class dataStructure_Stack {
