@@ -1,6 +1,6 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.referencedLibraries": [
-        "path/to/your/jdk/lib"
+        "C:\\Program Files\\Java\\jdk-19\\lib"
     ]
 }
