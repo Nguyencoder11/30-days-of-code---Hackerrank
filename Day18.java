@@ -1,7 +1,6 @@
 // Day 18: Queues and Stacks
 
 import java.util.*;
-import java.io.*;
 
 public class Day18 {
     Stack<Character> stackList = new Stack<>();
