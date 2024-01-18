@@ -1,6 +1,5 @@
 // Day 15: Linked List
 
-import java.io.*;
 import java.util.*;
 
 // Bai tap ve cau truc du lieu LinkedList
