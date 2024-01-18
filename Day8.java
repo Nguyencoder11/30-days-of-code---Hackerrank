@@ -1,7 +1,6 @@
 // Day 8: Dictionaries and Maps
 
 import java.util.*;
-import java.io.*;
 
 public class Day8 {
     public static void main(String[] args) {
