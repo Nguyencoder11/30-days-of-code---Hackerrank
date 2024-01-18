@@ -49,7 +49,6 @@ public class Day22 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
-        // So testcase
         int T = sc.nextInt();
 
         // Khoi tao node goc
