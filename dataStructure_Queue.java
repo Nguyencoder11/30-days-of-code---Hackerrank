@@ -1,5 +1,3 @@
-// Learn about data structure - Queue
-
 import java.io.*;
 import java.util.*;
 
