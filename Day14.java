@@ -1,10 +1,6 @@
 // Day 14: Scope
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 // Bai tap ve pham vi (Scope)
 class Difference {
