@@ -1,6 +1,5 @@
 // Day 19: Interfaces
 
-import java.io.*;
 import java.util.*;
 
 interface AdvancedArithmetic {
