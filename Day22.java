@@ -1,7 +1,6 @@
 // Day 22: Binary Search Trees
 
 import java.util.*;
-import java.io.*;
 
 // Khoi tao Node
 class Node {
@@ -61,5 +60,6 @@ public class Day22 {
         }
         int height = getHeight(root);
         System.out.println(height);
+        sc.close();
     }
 }
