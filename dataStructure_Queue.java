@@ -1,9 +1,6 @@
 //  Learn data structure - Queue
 
-import java.util.PriorityQueue;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class dataStructure_Queue {
     static Queue<Integer> queue1 = new LinkedList<>();
