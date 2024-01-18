@@ -1,7 +1,6 @@
 // Day 23: BST Level-Order Traversal
 
 import java.util.*;
-import java.io.*;
 
 class Node {
     Node left, right;
@@ -47,16 +46,17 @@ public class Day23 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        int T = sc.nextInt();
+        int T = scanner.nextInt();
 
         Node root = null;
 
         while (T-- > 0) {
-            int data = sc.nextInt();
+            int data = scanner.nextInt();
             root = insert(root, data);
         }
         levelOrder(root);
+        scanner.close();
     }
 }
