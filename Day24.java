@@ -1,7 +1,6 @@
 // Day 24: More Linked Lists
 
 import java.util.*;
-import java.io.*;
 
 class Node {
     int data;
@@ -16,8 +15,22 @@ class Node {
 
 public class Day24 {
     public static Node removeDuplicates(Node head) {
-        // Write your code here
+        if (head == null) {
+            return null;
+        }
+        Node start = head;
+        while (start.next != null) {
+            Node temp = head;
+            while (temp.next != start) {
+                if (temp.next == start) {
+                    temp.next = start.next;
+                    temp = temp.next;
+                }
+            }
+            start = start.next;
+        }
 
+        return start;
     }
 
     public static Node insert(Node head, int data) {
@@ -31,7 +44,6 @@ public class Day24 {
             while (start.next != null)
                 start = start.next;
             start.next = p;
-
         }
         return head;
     }
@@ -54,6 +66,6 @@ public class Day24 {
         }
         head = removeDuplicates(head);
         display(head);
-
+        sc.close();
     }
 }
