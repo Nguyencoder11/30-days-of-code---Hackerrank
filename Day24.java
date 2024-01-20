@@ -15,22 +15,38 @@ class Node {
 
 public class Day24 {
     public static Node removeDuplicates(Node head) {
-        if (head == null) {
-            return null;
-        }
-        Node start = head;
-        while (start.next != null) {
-            Node temp = head;
-            while (temp.next != start) {
-                if (temp.next == start) {
-                    temp.next = start.next;
-                    temp = temp.next;
-                }
-            }
-            start = start.next;
-        }
+        // Nếu danh sách rỗng hoặc có 1 Node head duy nhất thì trả về Node head
+        if (head == null || head.next == null) {
+            return head;
+        } else {
+            // 1 con trỏ current
+            /*
+             * Node current = head;
+             * while (current.next != null) {
+             * if (current.data == current.next.data) {
+             * current.next = current.next.next;
+             * } else {
+             * current = current.next;
+             * }
+             * }
+             * 
+             */
 
-        return start;
+            // Kỹ thuật dùng 2 con trỏ duyệt danh sách
+            Node temp = head;
+            while (temp != null) {
+                Node current = temp;
+                while (current.next != null) {
+                    if (temp.data == current.next.data) {
+                        current.next = current.next.next;
+                    } else {
+                        current = current.next;
+                    }
+                }
+                temp = temp.next;
+            }
+            return head;
+        }
     }
 
     public static Node insert(Node head, int data) {
