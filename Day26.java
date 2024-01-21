@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Day26 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // Getting data using System.in
         /*
          * Scanner scanner = new Scanner(System.in);
@@ -34,6 +34,7 @@ public class Day26 {
 
         // Doc du lieu tu file Day26.txt
         String path = "Day26.txt";
+        String outputPath = "Day26_output.txt";
 
         try {
             File file = new File(path);
@@ -65,6 +66,10 @@ public class Day26 {
                 punish = 15 * (returnedDay - dueDay);
             }
             System.out.println(punish);
+
+            try (FileWriter writer = new FileWriter(outputPath)) {
+                writer.write("Fine: " + punish + " Hackos");
+            }
 
             scan.close();
         } catch (FileNotFoundException e) {
