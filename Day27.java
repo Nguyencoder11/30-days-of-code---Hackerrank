@@ -22,6 +22,7 @@ public class Day27 {
         try {
             int[] seq = TestDataEmptyArray.get_array();
             int result = minimum_index(seq);
+            System.out.println(result);
         } catch (IllegalArgumentException e) {
             return;
         }
@@ -50,7 +51,7 @@ public class Day27 {
         }
     }
 
-    // Ham kiem tra voi gia tri nho nhat la 2 phan tu 
+    // Ham kiem tra voi gia tri nho nhat la 2 phan tu
     public static void TestWithExactlyTwoDifferentMinimums() {
         int[] seq = TestDataExactlyTwoDifferentMinimums.get_array();
         if (seq.length < 2) {
