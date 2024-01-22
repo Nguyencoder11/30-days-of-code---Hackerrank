@@ -1,6 +1,5 @@
 // Day 26: Nested Logic
 
-import java.util.*;
 import java.io.*;
 
 import java.util.Scanner;
