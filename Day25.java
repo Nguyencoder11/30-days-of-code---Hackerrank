@@ -1,7 +1,6 @@
 // Day 25: Running Time and Complexity
 
 import java.util.*;
-import java.io.*;
 
 public class Day25 {
     static boolean isPrime(int n) {
